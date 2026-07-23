@@ -1,5 +1,6 @@
 import { scheduleFetchByDay } from "../../services/schedule-fetch-by-day.js"
 import { hoursLoad } from "../form/hours-load.js"
+import { schedulesShow } from "../schedules/show.js"
 
 // seleciona o input de data
 const selectedDate = document.getElementById("date")
@@ -10,6 +11,9 @@ export async function schedulesDay(){
     // busca na API os agendamentos
     const dailySchedules = await scheduleFetchByDay({ date })
     console.log(dailySchedules)
+
+    // exibe os agendamentos do dia selecionado
+    schedulesShow({ dailySchedules })
 
     // renderiza as horas disponíves
     hoursLoad({ date })
