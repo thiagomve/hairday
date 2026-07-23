@@ -1,24 +1,9 @@
 {
   "schedules": [
     {
-      "id": "GbTtqoGRNV0",
+      "id": "sn3jxxURFRY",
       "name": "Thiago Gomes",
-      "when": "2026-07-23T00:00:00.000Z"
-    },
-    {
-      "id": "fCQ3UW78oL8",
-      "name": "Thiago Gomes",
-      "when": "2026-07-23T14:00:00.000Z"
-    },
-    {
-      "id": "eHmXjVHXx3Y",
-      "name": "Duda",
-      "when": "2026-07-24T23:00:00.000Z"
-    },
-    {
-      "id": "bHQMqGFBV30",
-      "name": "Duda",
-      "when": "2026-07-25T17:00:00.000Z"
+      "when": "2026-07-24T00:00:00.000Z"
     }
   ]
 }
