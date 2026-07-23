@@ -26,7 +26,6 @@ form.onsubmit = async (event) => {
 
     // recupera o horário selecionado
     const hourSelected = document.querySelector(".hour-selected");
-    console.log(hourSelected);
 
     if (!hourSelected) {
       return alert("Selecione um horário para o agendamento.");

@@ -13,7 +13,6 @@ periods.forEach((period) => {
 
             // obtém o id do agendamento para remover
             const { id } = item.dataset
-            console.log(id)
 
             // confirma que o id foi selecionado
             if(id){
